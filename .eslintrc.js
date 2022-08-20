@@ -13,5 +13,12 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'import/extensions': 'off',
+    'no-param-reassign': 'off',
+    'vuejs-accessibility/label-has-for': 'off',
+    'vuejs-accessibility/form-control-has-label': 'off',
+  },
+  globals: {
+    chrome: true,
   },
 };
